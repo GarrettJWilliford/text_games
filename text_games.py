@@ -18,7 +18,7 @@ def rps(*args):
     print('<<<<<<<<<<>>>>>>>>>>')
     choice = ['r', 'p', 's']
     words = ['ROCK', 'PAPER', 'SCISSORS']    
-    if a[0] not in choice:
+    if aa[0] not in choice:
             print('first var needs to be r, p, or s')
             return        
     ai_choice = random.choice(choice)
